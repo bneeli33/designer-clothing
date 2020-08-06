@@ -13,18 +13,21 @@ export class Directory extends Component {
           imageURL:
             'https://static.cdn.printful.com/static/v773/images/landing/custom-embroidered-hats/design-your-own-hat-mobile.jpg',
           id: '1',
+          linkUrl: 'hats',
         },
         {
-          title: 'jackets',
+          title: 'Jackets',
           imageURL:
             'https://www.peta.org/wp-content/uploads/2018/12/Down-free-featured-image-2-668x336-1573667965.jpg?20191113055925',
           id: '2',
+          linkUrl: '',
         },
         {
-          title: 'sneakers',
+          title: 'footwear',
           imageURL:
             'https://media.gq.com/photos/5d93aa2c636d4800084025ae/16:9/pass/sneakers.jpg',
           id: '3',
+          linkUrl: '',
         },
         {
           title: 'womens',
@@ -32,6 +35,7 @@ export class Directory extends Component {
             'https://bidunart.com/wp-content/uploads/2019/12/Portrait064a-1280x640.jpg',
           size: 'large',
           id: '4',
+          linkUrl: '',
         },
         {
           title: 'mens',
@@ -39,6 +43,7 @@ export class Directory extends Component {
             'https://theupcoming-flmedialtd.netdna-ssl.com/wp-content/uploads/2018/11/pexels-photo-842811-1024x620.jpeg',
           size: 'large',
           id: '5',
+          linkUrl: '',
         },
       ],
     };
@@ -47,7 +52,7 @@ export class Directory extends Component {
     return (
       <div className="directory-menu">
         {this.state.sections.map(({ title, imageURL, id, size }) => (
-          <MenuItem key={id} title={title} image={imageURL} size={size}/>
+          <MenuItem key={id} title={title} image={imageURL} size={size} />
         ))}
       </div>
     );
