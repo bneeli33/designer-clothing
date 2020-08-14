@@ -29,7 +29,7 @@ const SHOP_DATA = [
         id: 4,
         name: 'Grey Brim',
         imageUrl:
-          'https://www.swiftmarx.com/400470-large_default/fs-french-artist-beret-hat-for-women-female-winter-fashion-black-blue-brown-plaid-wool-thick-berets-painter-octagonal-hats-caps.jpg',
+          'https://cdn.shopify.com/s/files/1/0431/5161/products/scottie-wide-brim-fedora-grey-felt-hats_2000x.jpg?v=1587319556',
         price: 25,
       },
       {
@@ -94,7 +94,7 @@ const SHOP_DATA = [
       },
       {
         id: 4,
-        name: 'Nike White AirForce',
+        name: 'Nike AirForce',
         imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
         price: 160,
       },
